@@ -38,7 +38,7 @@ namespace forces
         }
         double inversesin(double a)
         {
-            return Math.Asin(a) * 180.0 / Math.PI
+            return Math.Asin(a) * 180.0 / Math.PI;
         }
         double cos(double a)
         {
@@ -47,7 +47,7 @@ namespace forces
         }
         double inversecos(double a)
         {
-            return Math.Acos(a) * 180.0 / Math.PI
+            return Math.Acos(a) * 180.0 / Math.PI;
         }
         double tan(double a)
         {
@@ -56,7 +56,7 @@ namespace forces
         }
         double inversetan(double a)
         {
-            return Math.Atan(a) * 180.0 / Math.PI
+            return Math.Atan(a) * 180.0 / Math.PI;
         }
     }
 }
