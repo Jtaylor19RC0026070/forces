@@ -23,7 +23,7 @@ namespace forces
             {
                 double a = double.Parse(textBox1.Text);
                 double ans = sin(a);
-                label1.Text = ans.ToString();
+                F.Text = ans.ToString();
             }
             catch
             {
