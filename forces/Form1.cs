@@ -22,8 +22,11 @@ namespace forces
             try
             {
                 double a = double.Parse(textBox1.Text);
-                double ans = sin(a);
-                F.Text = ans.ToString();
+                double ang = double.Parse(textBox2.Text);
+                double Fx = cos(ang)* a;
+                double Fy = a * sin(ang);
+                label2.Text = Fx.ToString();
+                label1.Text = Fy.ToString();
             }
             catch
             {
